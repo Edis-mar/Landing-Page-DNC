@@ -75,7 +75,12 @@
 .seta{
     margin-top: 280%;
     margin-left: 70%;
+    cursor: pointer;
 }
 #seta-direita{
     margin-left: 50%;
+}
+.seta:hover{
+    transform: translateY(-7px);
+    transition-duration: 0.5s;
 }
